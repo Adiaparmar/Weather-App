@@ -153,19 +153,23 @@ body{
     margin-top: 50px;
     scale: 0;
     opacity: 0;
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .not-found img{
-    width: 70%;
+    width: 200px;
+    margin-left: 60px;
+    height: 170px
 
 }
 
 .not-found p{
     color: #06283D;
-    font-size: 22px;
+    font-size: 45px;
     font-weight: 500;
-    margin-top: 12px;
+    margin-top: 70px;
+    margin-left: 90px;
 
 }
 
